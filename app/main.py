@@ -18,7 +18,7 @@ class PostBase(BaseModel):
 class UserBase(BaseModel):
     username: str
 
-
+# Create a function to get a new SQLAlchemy session
 def get_db():
     db = SessionLocal()
     try:
